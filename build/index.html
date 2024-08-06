@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container p-10">
+        <div class="intro mb-5">
+            <h1 class="text-base font-semibold leading-7 text-gray-900">Payment</h1>
+            <span class="mt-1 text-sm leading-6 text-gray-600">Credit card payment</span>
+        </div>
+        <div class="form">
+            <form>
+                <div class="mt-2">
+                    <label for="amount" class="block text-sm font-medium leading-6 text-gray-900">Amount</label>
+                    <div
+                        class="flex rounded-md shadow-sm ring-1 ring-inset ring-gray-300 focus-within:ring-2 focus-within:ring-inset focus-within:ring-indigo-600 sm:max-w-md">
+                        <input type="number" name="amount" id="amount"
+                            class="block flex-1 border-0 bg-transparent py-1.5 pl-1 text-gray-900 blocer:text-gray-400 focus:ring-0 sm:text-sm sm:leading-6"
+                            placeholder="HK$0">
+                    </div>
+                </div>
+                <div class="mt-2">
+                    <label for="username" class="block text-sm font-medium leading-6 text-gray-900">Date</label>
+                    <div
+                        class="flex rounded-md shadow-sm ring-1 ring-inset ring-gray-300 focus-within:ring-2 focus-within:ring-inset focus-within:ring-indigo-600 sm:max-w-md">
+                        <input type="date" name="date" id="date"
+                            class="block flex-1 border-0 bg-transparent py-1.5 pl-1 text-gray-900 blocer:text-gray-400 focus:ring-0 sm:text-sm sm:leading-6">
+                    </div>
+                </div>
+                <div class="mt-4">
+                    <label class="inline-flex items-center cursor-pointer">
+                        <span class="mr-2 text-sm font-medium text-gray-900 dark:text-gray-300">Status</span>
+                        <input type="checkbox" value="" class="sr-only peer">
+                        <div class="relative w-11 h-6 text-sm text-center bg-gray-200 peer-focus:outline-none peer-focus:ring-1 peer-focus:ring-indigo-600 rounded-full peer peer-checked:after:translate-x-full rtl:peer-checked:after:-translate-x-full peer-checked:after:border-white after:content-['X'] peer-checked:after:content-['V'] after:absolute after:top-[2px] after:start-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-5 after:w-5 after:transition-all peer-checked:bg-indigo-600"></div>
+                    </label>
+                </div>
+                <div class="mt-6 flex items-center justify-start gap-x-6">
+                    <button type="submit"
+                        class="rounded-md bg-indigo-600 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Save</button>
+                    <button type="reset" class="text-sm font-semibold leading-6 text-gray-900">Reset</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+
+</body>
+
+</html>

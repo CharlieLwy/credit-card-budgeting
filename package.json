@@ -1,0 +1,7 @@
+{
+  "start_url": "build/index.html",
+
+  "devDependencies": {
+    "tailwindcss": "^3.4.7"
+  }
+}
